@@ -252,11 +252,11 @@
   }
 }
 
-@layer components {
+/* @layer components {
 
   /* SHADCN COMPONENTS */
   /* Form */
-  .shad-form_label {
+  /* .shad-form_label {
     @apply text-white !important;
   }
 
@@ -273,7 +273,7 @@
   }
 
   /* Button */
-  .shad-button_primary {
+  /* .shad-button_primary {
     @apply bg-primary-500 hover:bg-primary-500 text-light-1 flex gap-2 !important;
   }
 
@@ -284,4 +284,4 @@
   .shad-button_ghost {
     @apply flex gap-4 items-center justify-start hover:bg-transparent hover:text-white !important;
   }
-}
+} */ 

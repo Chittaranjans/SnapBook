@@ -11,9 +11,9 @@ function App() {
     <main className="flex h-screen">
       <Routes>
         <Route element={<AuthLayout />}>
-          <Route path="/sign-in" element={<SigninForm />} />
+          <Route path="/signup" element={<SigninForm />} />
 
-          <Route path="/sign-up" element={<SignupForm />} />
+          <Route path="/signin" element={<SignupForm />} />
         </Route>
         <Route
           path="/"
