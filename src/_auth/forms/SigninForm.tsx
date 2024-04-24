@@ -80,6 +80,7 @@ const SigninForm = () => {
               <FormLabel>userName</FormLabel>
               <FormControl>
                 <Input
+                  placeholder="Enter your username"
                   type="text"
                   className="h-12 border-2 border-pink-300 rounded hover:rounded-lg p-2 rounded-xl placeholder:text-light-4 focus-visible:ring-1 focus-visible:ring-offset-1 ring-offset-light-3"
                   {...field}
