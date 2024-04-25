@@ -43,11 +43,17 @@ const SignupForm = () => {
         src="/public/assets/5882207_linux_logo_operating_system_icon.png"
         alt="logo"
       />
-      <h1 className="text-2xl font-bold text-center text-pink-800">Log In</h1>
+
+      <span className="text-green-700 text-1xl font-bold text-center ">
+        &lt;
+      </span>
+      <span className="text-1xl font-bold text-center text-pink-800">Snap</span>
+      <span className="text-green-700">Book/&gt;</span>
+
+      <h3 className="text-1xl font-bold text-center text-pink-800">Log In</h3>
       <p className="text-light-3 small-medium md:base-regular mt-2">
         To use SnapBook enter your details
       </p>
-
       <form
         onSubmit={form.handleSubmit(onSubmit)}
         className="flex flex-col items-center justify-center gap-5 w-3/5 mt-4 border-t border-b border-light-3 pt-5 pb-5 border-dotted border-cyan-900"

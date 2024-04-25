@@ -43,7 +43,8 @@ const SigninForm = () => {
         src="/public/assets/5882207_linux_logo_operating_system_icon.png"
         alt="logo"
       />
-      <h1 className="text-2xl font-bold text-center text-pink-800">Sign up</h1>
+      <h1 className="text-2xl font-bold text-center text-pink-800">Snapbook</h1>
+      <h3 className="text-1xl font-bold text-center text-pink-800">Sign up</h3>
       <p className="text-light-3 small-medium md:base-regular mt-2">
         To use SnapBook enter your details
       </p>
